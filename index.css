@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src:
+      local("Cursed Timer ULiL"),
+      url("CursedTimerUlil-Aznm.ttf") format("opentype") tech(color-COLRv1),
+      url("CursedTimerUlil-Aznm.ttf") format("opentype"),
+      url("CursedTimerUlil-Aznm.ttf") format("woff");
+  }
+
 body {
     margin: 0;
     background-color: #9CA3AF;
@@ -42,7 +51,7 @@ h3 {
     border-radius: 5px;
     text-align: center;
     font-size: 3em;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Cursed Timer ULiL';
 }
 
 .score.winning-score {

@@ -51,6 +51,9 @@ h3 {
     border-radius: 5px;
     text-align: center;
     font-size: 3em;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
     font-family: 'Cursed Timer ULiL';
 }
 
@@ -72,6 +75,7 @@ h3 {
     color: #9AABD8;
     font-size: 18px;
     margin: 15px 0;
+    font-family: 'Cursed Timer ULiL';
 }
 
 .number-box:hover {

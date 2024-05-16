@@ -1,10 +1,9 @@
-
+<!DOCTYPE html>
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
         <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
-
         <title>Score Board</title>
     </head>
     <body>
@@ -14,18 +13,18 @@
                     <h3>HOME</h3>
                     <div id="homeScore" class="score">0</div>
                     <div class="add-numbers" id="addNumbers">
-                        <div onclick="homeAddOne();winner();" class="number-box" id="numberBox">+1</div>
-                        <div onclick="homeAddTwo();winner();" class="number-box" id="numberBox">+2</div>
-                        <div onclick="homeAddThree();winner();" class="number-box" id="numberBox">+3</div>
+                        <div onclick="homeAddOne();winner();" class="number-box">+1</div>
+                        <div onclick="homeAddTwo();winner();" class="number-box">+2</div>
+                        <div onclick="homeAddThree();winner();" class="number-box">+3</div>
                     </div>
                 </div>
                 <div class="guest">
                     <h3>AWAY</h3>
                     <div id="guestScore" class="score">0</div>
                     <div class="add-numbers">
-                        <div onclick="guestAddOne();winner();" class="number-box" id="numberBox">+1</div>
-                        <div onclick="guestAddTwo();winner();" class="number-box" id="numberBox">+2</div>
-                        <div onclick="guestAddThree();winner();" class="number-box" id="numberBox">+3</div>
+                        <div onclick="guestAddOne();winner();" class="number-box">+1</div>
+                        <div onclick="guestAddTwo();winner();" class="number-box">+2</div>
+                        <div onclick="guestAddThree();winner();" class="number-box">+3</div>
                     </div>
                 </div>
             </div>

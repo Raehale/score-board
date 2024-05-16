@@ -37,6 +37,10 @@ function newGame() {
     
     guestScore = 0
     document.getElementById("guestScore").textContent = guestScore;
+
+    homeBox.classList.remove("winning-score");
+    guestBox.classList.remove("winning-score");
+
 }
 
 //leader
@@ -54,8 +58,5 @@ function winner() {
         let winningTeam = guestScore;
         guestBox.classList.add("winning-score");
         homeBox.classList.remove("winning-score");
-    } else if (homeScore == guestScore) {
-        homeBox.classList.remove("winning-score");
-        guestBox.classList.remove("winning-score");
     }
 }

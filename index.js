@@ -1,7 +1,14 @@
+let homeScore = 0;
+let guestScore = 0;
 
+//increment
+function addScore(team, points) {
+    if (team = "home") {
+        
+    }
+}
 
 //home
-let = homeScore = 0;
 function homeAddOne() {
     homeScore += 1;
     document.getElementById("homeScore").textContent = homeScore;
@@ -16,7 +23,6 @@ function homeAddThree() {
 }
 
 //guest
-let guestScore = 0;
 function guestAddOne() {
     guestScore += 1;
     document.getElementById("guestScore").textContent = guestScore;    
@@ -50,12 +56,12 @@ let guestBox = document.getElementById("guestScore");
 
 function winner() {
     if(homeScore > guestScore) {
-        let winningTeam = homeScore;
+        winningTeam = homeScore;
         homeBox.classList.add("winning-score");
         guestBox.classList.remove("winning-score");
         
     } else if(homeScore < guestScore) {
-        let winningTeam = guestScore;
+        winningTeam = guestScore;
         guestBox.classList.add("winning-score");
         homeBox.classList.remove("winning-score");
     }
